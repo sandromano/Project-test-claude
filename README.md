@@ -53,6 +53,14 @@ In der Seitenleiste lassen sich Anbieter auswählen und die Daten aktualisieren.
 Die API-Antwort wird 60 Sekunden zwischengespeichert; «Aktualisieren» leert
 diesen Cache. Die Seite «Prognose» ist ein Platzhalter und enthält noch kein ML.
 
+Zusätzlich kann die Karte Scooter-Sharing-Stationen aus der Open Data Hub
+Mobility API anzeigen. Das sind feste Stationsstandorte, keine einzelnen
+Scooter und keine Live-Verfügbarkeitsangaben; sie werden daher separat
+markiert und nicht zur Scooter-Anzahl addiert. Die derzeit publizierten
+Scooter-Sharing-Stationen liegen in Aubonne, Basel und Fribourg. Für St. Gallen
+liefert diese Quelle aktuell keine Stationen. Die Abfrage folgt dem
+konfigurierten Mittelpunkt und Suchradius.
+
 ## Datensammler starten
 
 ```bash
