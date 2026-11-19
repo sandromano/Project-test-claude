@@ -1,0 +1,18 @@
+[city]
+name = "St. Gallen"
+latitude = 47.4245
+longitude = 9.3767
+radius_m = 5000
+
+[collector]
+interval_seconds = 900
+
+[app]
+cache_ttl_seconds = 60
+
+[api]
+base_url = "https://api.sharedmobility.ch/v1/sharedmobility"
+timeout_seconds = 20
+
+[database]
+path = "data/scooters.sqlite3"
